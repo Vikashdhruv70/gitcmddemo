@@ -6,14 +6,15 @@ public class TestDemo {
 	
 		int a=10;
 		int b=20;
-		subtract(a,b);
+		int d=subtract(a,b);
 		add(a,b);
 		multiply(a,b);
 
 	}
-	public static void subtract(int a, int b) {
+	public static int subtract(int a, int b) {
 	int	c=a-b;
 		System.out.println(c+"sub result");
+		return c;
 				
 	}
 	
